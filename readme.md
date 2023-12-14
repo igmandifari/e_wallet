@@ -46,4 +46,22 @@ Full Documentation :  https://github.com/igmandifari/ReadMeImage
      
    - Successful transfer
      ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/TransferSuccess.png?raw=true)
+
+     
+     
+   **Screenshot of the Database : PostgreSQL**
+   - Transaction
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/Transactions.png?raw=true)
+
+   - Account History
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/ActivityHistories.png?raw=true)
+     
+   - Account
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/ActivityHistories.png?raw=true)
+     
+   - Users
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/Accounts.png?raw=true)
+     
+   - Auths
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/Auths.png?raw=true)
      
