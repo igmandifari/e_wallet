@@ -18,6 +18,7 @@
 1. Login
    - Login does not include email/password
       ![GitHub Logo]([https://github.com/igmandifari/ReadMeImage/blob/main/EmptyEmailPasswordGo.png?raw=true])
+     ![GitHub Logo](https://github.com/igmandifari/Technical-test-1/blob/master/swagger.png?raw=true)
      
    - Login invalid credentials / entered the wrong email or password
    - Login successful
