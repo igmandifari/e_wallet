@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "879ec35e-1100-40ce-9642-37a7fc8b50d3",
+		"name": "go-ewallet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11608694"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"igman.difar@gmail.com\",\n    \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMDFISEpLRk1QWjExN1M0OU41UlRXSlZTMFYiLCJuYW1lIjoiaWdtYW4gZGlmYXJpIiwiZW1haWwiOiJpZ21hbi5kaWZhckBnbWFpbC5jb20iLCJ0eXBlIjoiY3VzdG9tZXIifSwidG9rZW4iOiIiLCJleHAiOjE3MDI1MTYwOTh9.-HPe7n6xzOXfWIebAOTTA6hlYIceakn2IRiG7AJMMFc",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/auth/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "transaction",
+			"item": [
+				{
+					"name": "send-money",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMDFISEpLRk1QWjExN1M0OU41UlRXSlZTMFYiLCJuYW1lIjoiaWdtYW4gZGlmYXJpIiwiZW1haWwiOiJpZ21hbi5kaWZhckBnbWFpbC5jb20iLCJ0eXBlIjoiY3VzdG9tZXIifSwidG9rZW4iOiIiLCJleHAiOjE3MDI1MTYwOTh9.-HPe7n6xzOXfWIebAOTTA6hlYIceakn2IRiG7AJMMFc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"to\": \"geprek.nadila@gmail.com\",\n    \"amount\": 1000\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/transaction/send-money",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"transaction",
+								"send-money"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
