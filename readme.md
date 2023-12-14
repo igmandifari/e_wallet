@@ -3,6 +3,7 @@
 2. Logout
 3. Transcation (Transfer between customers)
 4. I Already add collections (postman) in this repo for testing API
+   
 
 **How to run app:**
 1. add the .env file with the contents according to yours, im using postgresql
@@ -12,9 +13,12 @@
       DURATION_EXPIRE=
 2. run migration : export DB_URL=postgresql://yourHost/go_ewallet?sslmode=disable && make migrateup
    
+   
 **Below is a screenshot with the steps and test case:**
 1. Login
    - Login does not include email/password
+      ![GitHub Logo]([https://github.com/igmandifari/Technical-test-1/blob/master/swagger.png?raw=true](https://github.com/igmandifari/ReadMeImage/blob/main/EmptyEmailPasswordGo.png?raw=true)
+     
    - Login invalid credentials / entered the wrong email or password
    - Login successful
      
