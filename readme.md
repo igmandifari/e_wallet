@@ -15,7 +15,9 @@
    
    
 **Below is a screenshot with the steps and test case:**
+
 Full Documentation :  https://github.com/igmandifari/ReadMeImage
+
 1. Login
    - Login does not include email/password
      ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/EmptyEmailPasswordGo.png?raw=true)
