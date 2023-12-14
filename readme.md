@@ -15,6 +15,7 @@
    
    
 **Below is a screenshot with the steps and test case:**
+Full Documentation :  https://github.com/igmandifari/ReadMeImage
 1. Login
    - Login does not include email/password
      ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/EmptyEmailPasswordGo.png?raw=true)
@@ -25,13 +26,24 @@
    - Login successful
      ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/LoginSuccessGo.png?raw=true)
      
-3. Logout
+2. Logout
    - Logout Successfull
      ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/LogoutSuccessGo.png?raw=true)
      
      
-5. Transfer
+4. Transfer
    - Insufficient / Less balance
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/LessBalance.png?raw=true)
+     
    - Transfer to your own account
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/ReceiverNotFoundGo.png?raw=true)
+     
    - Transfer to unregistered users
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/ReceiverNotFound.png?raw=true)
+
+   - Transfer Without Login
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/TransferWithoutLogin.png?raw=true)
+     
    - Successful transfer
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/TransferSuccess.png?raw=true)
+     
