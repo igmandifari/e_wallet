@@ -20,10 +20,15 @@
      ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/EmptyEmailPasswordGo.png?raw=true)
 
    - Login invalid credentials / entered the wrong email or password
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/EmailFailedGo.png?raw=true)
+     
    - Login successful
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/LoginSuccessGo.png?raw=true)
      
 3. Logout
    - Logout Successfull
+     ![GitHub Logo](https://github.com/igmandifari/ReadMeImage/blob/main/LogoutSuccessGo.png?raw=true)
+     
      
 5. Transfer
    - Insufficient / Less balance
